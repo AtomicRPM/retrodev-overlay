@@ -10,7 +10,7 @@ EGIT_SUBMODULES=( '*' )
 
 LICENSE="Clarified-Artistic"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE="examples test"
 
 RESTRICT="!test? ( test )"

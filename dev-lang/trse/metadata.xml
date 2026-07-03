@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>echto1@gmail.com</email>
+        <name>AtomicRPM</name>
+    </maintainer>
+
+  <upstream>
+    <remote-id type="github">leuat/TRSE</remote-id>
+  </upstream>
+
+    <longdescription>
+        TRSE (Turbo Rascal Syntax Error) is a retro cross-platform compiler and IDE
+        targeting systems such as Commodore 64, ZX Spectrum, and Atari 8-bit.
+    </longdescription>
+</pkgmetadata>

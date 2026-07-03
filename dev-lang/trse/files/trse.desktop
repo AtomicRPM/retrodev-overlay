@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=TRSE
+GenericName=Retro Compiler IDE
+Comment=Turbo Rascal Syntax Error
+Exec=trse
+Icon=trse
+Terminal=false
+Categories=Development;IDE;
+StartupNotify=true
