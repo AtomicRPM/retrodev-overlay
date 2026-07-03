@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>echto1@gmail.com</email>
+        <name>AtomicRPM</name>
+    </maintainer>
+
+    <upstream>
+        <remote-id type="github">z88dk/z88dk</remote-id>
+    </upstream>
+
+    <longdescription>
+        The z88dk Z80 cross-development toolkit supporting many classic Z80-based systems,
+        including the ZX Spectrum, CP/M, MSX, Amstrad CPC, Sega Master System, Game Boy,
+        and others.
+    </longdescription>
+</pkgmetadata>
