@@ -1,6 +1,6 @@
 EAPI=8
 
-inherit git-r3
+inherit git-r3 toolchain-funcs
 
 DESCRIPTION="ACME Cross Assembler for 6502"
 HOMEPAGE="https://sourceforge.net/projects/acme-crossass/"
@@ -15,10 +15,10 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 
 src_compile() {
-    emake
+    emake -C src -f Makefile CC="$(tc-getCC)" CFLAGS="${CFLAGS}" || die
 }
 
 src_install() {
-    dobin acme
+    dobin src/acme
     dodoc README* 2>/dev/null
 }
