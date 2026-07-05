@@ -15,6 +15,8 @@ RDEPEND="
     dev-lang/pasmo
     dev-lang/trse
     dev-util/xc3sprog
+    dev-embedded/avrdude
+    dev-embedded/openocd
     app-emulation/fuse
     app-emulation/fuse-utils
     app-emulation/vice
